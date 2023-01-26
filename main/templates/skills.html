@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Навыки</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <nav class="navbar bg-secondary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'home' %}">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/1C_Company_logo.svg/2560px-1C_Company_logo.svg.png"
+                     alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Профессия 1С Разработчик
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-secondary" tabindex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Профессия 1С Разработчик</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"
+                               href="{% url 'demand' %}">Востребованность</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'geo' %}">География</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{% url 'skills' %}">Навыки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'lastVacancies' %}">Последние вакансии</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content mt-5">
+        <h1 class="text-center">1C Разработчик</h1>
+        <div class="col-8">
+            <h1>Руководитель проекта</h1>
+            <p>
+                <img src="https://static.tildacdn.com/tild3864-6263-4265-a664-646231363735/1c.svg"
+                     height="270" width="450" alt="" class="img-fluid">
+            </p>
+            <br>
+            <p>
+
+
+                В зависимости от конкретной компании обязанности следующие:
+
+            <ul>
+                <li>Составление плана проекта и контроль его реализации, могут быть различные планы: по срокам, по качеству,
+                <li>по финансам(бюджет)
+                <li>Взаимодействие с заказчиком по плану планам проекта
+                <li>Участие в продаже проекта
+                <li>Взаимодействие с командой проекта на предмет выполнения проекта и решения административных вопросов
+                <li>Координация выполнения работы и их приёмки
+                <li>Выбор оптимальных конфигураций 1С для решения задач клиента
+            </ul>
+
+
+            </p>
+            <div>
+                <h1>Архитектор</h1>
+                <p>
+
+
+                В зависимости от конкретной компании обязанности следующие:
+                </p>
+                    <ul>
+                        <li>Разработка и описание архитектуры 1С
+                        <li>Участие в пресейлах
+                        <li>Техническое руководство проектом
+                        <li>Контроль качества разработки
+                        <li>Выявление и управление техническими рисками проекта
+                        <li>Оценка объёма работ
+                        <li>Участие в разработке ТЗ, ЧТЗ, ТП, требований к архитектуре
+                        <li>Организация процесса разработки
+                        <li>Анализ качества продукта
+                    </ul>
+
+                <br>
+
+                <p>
+                    <img class="img-fluid"
+                         src="https://v8.1c.ru/upload/platforma/platform/postavka.jpg"
+                         height="300" width="500" alt="">
+                </p>
+                <br>
+            </div>
+            <div>
+                <h1>Консультант</h1>
+                <p>
+
+                В зависимости от конкретной компании обязанности следующие:
+                <ul>
+                    <li>Консультирование по функционалу
+                    <li>Участие в пресейлах
+                    <li>Определение бизнес-требований, планирование подхода к работе с требованиями
+                    <li>Выявлять, анализировать и документировать требования
+                    <li>Доводить требования до заинтересованных лиц, управлять проверкой требований
+                    <li>Обеспечивать расстановку приоритетов требований
+                    <li>Ставить задачи программистам и принимать результат выполнения
+                    <li>Проведение обучения
+                    <li>Проведение приёмо-сдаточных испытаний, демонстрация продукта заказчику
+                    <li>Сдача и согласование документации с заказчиком
+                </ul>
+
+                </p>
+                <p class="w-full">
+                    <img src="https://static.baza.farpost.ru/v/1658466408965_bulletin"
+                         alt="">
+                </p>
+                <br>
+
+                 <h1>Программист</h1>
+                <p>
+                    <img class="img-fluid"
+                         src="https://www.kaluga-poisk.ru/system/Cover/images/000/260/713/medium/1123334.jpg"
+                         height="300" width="500" alt="">
+                </p>
+                В зависимости от конкретной компании обязанности следующие:
+
+                <ul>
+                    <li>Обновление информационных баз
+                    <li>Реализация доработок в соответствии со стандартами разработки
+                    <li>Участие в совещаниях
+                </ul>
+                 <h1>Cпециалист по качеству (по тестированию)</h1>
+
+                В зависимости от конкретной компании обязанности следующие:
+                <ul>
+
+                <li>Ввод тестовых данных в систему
+                <li>Написание сценария тестирования
+                <li>Фиксация результатов тестирования
+                <li>Анализ результатов тестирования, формулирование выявленных проблем
+                <li>Обсуждение сценариев и результатов тестирования, изменение сценариев по результатам обсуждений
+                <li>Написание документации по результатам тестирования
+                <li>Развитие инфраструктуры для обеспечения качества
+                <li>Выполнение ручных и автоматических тестов
+                <li>Участие в сборе и анализе бизнес-требований к продукту
+                </ul>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+</html>

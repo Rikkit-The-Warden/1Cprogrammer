@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>1С разработчик</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar bg-secondary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'home' %}">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/1C_Company_logo.svg/2560px-1C_Company_logo.svg.png"
+                     alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Профессия 1С Разработчик
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-secondary" tabindex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Профессия 1С Разработчик</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"
+                               href="{% url 'demand' %}">Востребованность</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'geo' %}">География</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'skills' %}">Навыки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'lastVacancies' %}">Последние вакансии</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content mt-5">
+        <h1 class="text-center">1C Разработчик</h1>
+        <div class="col-8">
+            <h1>Кто такой 1C Разработчик?</h1>
+            <p>
+                <img src="https://static.tildacdn.com/tild3765-3865-4938-b837-613163356462/Group_277132391.svg"
+                     height="370" width="600" alt="" class="img-fluid">
+            </p>
+            <br>
+            <p>
+            <h1>
+                Кто такой программист 1С </h1>
+            <p class=&quot;font-size-md&quot>
+                Начнём с понятия программирования.
+                Программирование в 1С — это создание программного кода (алгоритма), который позволяет реализовать
+                необходимый функционал. Основной инструмент языка – команды (слова), которые в определённой
+                последовательности создают общую функциональную оболочку программы. Особенность языка программирования
+                1С — это код на русском языке. </p>
+            <div>
+
+                <p class=&quot;font-size-md text-gray my-4 pt-1 pb-3&quot;>
+                </p>
+                <div>
+                    <h1>Особенности профессии</h1>
+                    <p>
+                        <b>Программист 1С</b> — это специалист, который отвечает за администрирование, сопровождение и внедрение программ 1С в организациях.
+                        Как правило начинающие программисты 1С отвечают за исправную работу программы, обеспечение безопасности данных, восстановление баз после сбоев, обновление программы, управление правами доступа и т.д.
+
+                        <p><br>Более опытные специалисты настраивают обмен данными с другими программами, дорабатывают 1С под потребности заказчика, вводят новые отчёты, расширения и создают новые продукты, на основе существующих.
+                        </p>
+                        <br>Иногда высококвалифицированные разработчики выходят "за рамки" кода и помогают заказчику автоматизировать бизнес-процессы так, чтобы добиться экономии времени у сотрудников и прозрачности всех процессов. Они анализируют, как именно происходит то или иное действие, какой путь проходит сотрудник, на каком этапе происходит какая-то проблема и как её можно решить.
+                    </p>
+                    <br>
+                    <p>
+
+                    </p>
+                    <p>
+                        <img class="img-fluid"
+                             src="https://www.profguide.io/images/article/a/7/DUP6Q9Qs8U.jpg"
+                             height="500" width="1100" alt="">
+                    </p>
+                    <br>
+                    <p>
+                        <h1>Как стать программистом 1С </h1>
+                        <p class=&quot;font-size-md&quot; style=&quot;text-align: justify;&quot;> Для начала вам нужно пройти базовое обучение, которое даст основные знания в программировании 1С.&nbsp; Однако, для успешного продвижения в профессии одного владения кодом будет недостаточно. Чтобы лучше понимать заказчика и специфику его работы необходимо разбираться в основах законодательства, бухгалтерского и налогового учёта, в области финансов, понимать бизнес-процессы его компании. Необходимо ознакомиться с линейкой продуктов 1С, изучить типовые решения, основы работы с базами данных и многое другое. Также не стоит забывать о развитии soft-skills — это умение общаться с заказчиком, аргументировать и правильно отстаивать свою точку зрения.
+                        </p>
+                    </p>
+                    <br>
+                    <p>
+                        Вы можете подобрать обучающие статьи и каналы в интернете, смотреть вебинары, читать книги о программировании и пробовать применять все полученные знания на практике. Такой способ отлично подойдёт для того, чтобы без вложений изучить основные термины и особенности профессии и понять, интересна ли вам тема программирования 1С. Также самостоятельное обучение подойдёт вам, если вы обладаете дисциплиной и выдержкой, которые позволят не откладывать учёбу &quot;в долгий ящик&quot; и ответственно разобраться во всех темах. Однако, вы должны понимать, что в самостоятельном поиске информации есть риск упустить важные блоки знаний.
+                    </p>
+                </div>
+                <div>
+                    <h1>Обязанности</h1>
+                    <p>
+                        Что может входить в обязанности программиста: <p>
+                            <ul class=&quot;font-size-md line-marker-list&quot; style=&quot;text-align: justify;&quot;>
+                                <li>Помощь в подборе конфигурации на основе технических характеристик заказчика</li>
+                                <li>Установка программы на сервер, компьютер или в облако</li>
+                                <li>Настройка баз данных и прав доступа к ним</li>
+                                <li>Настройка интерфейса программы</li>
+                                <li>Доработки и расширение функциональности</li>
+                                <li>Настройка обмена данных между программами</li>
+                                <li>Подключение торгового оборудования к 1С</li>
+                                <li>Администрирование баз данных</li>
+                                <li>Обновление конфигураций</li>
+                                <li>Устранение неполадок</li>
+                                <li>Обучение пользователей работе в программе</li>
+                            </ul>
+                        </p>
+                    </p>
+                    <p class="w-full">
+                        <img src="https://new-retail.ru/upload/iblock/70c/70c03e37bf8ed4cc68872ef08d2b685b.jpg"
+                             alt="">
+                    </p>
+                    <br>
+
+                </div>
+
+                <h1>Что есть у разработчика 1C?</h1>
+                <div class=" pros-cons">
+                    <div>
+                        <h1><i class="fa-solid fa-plus"></i></h1>
+                        <p>
+                        </p>
+                        <ol>
+                            <li>Высокая зарплата. Даже новички в профессии получают неплохую ставку, по сравнению с
+                                другими
+                                вакансиями
+                            </li>
+                            <li>Востребованность профессии. Есть возможность работать в крупных компаниях с перспективой
+                                продвижения по карьерной лестнице до руководящей должности
+                            </li>
+                            <li>Для устройства на работу необязательно наличие высшего образования, достаточно среднего
+                                или
+                                окончания специальных курсов
+                            </li>
+                            <li>Возможность работы на удаленке</li>
+                        </ol>
+                        <p></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-end">
+        <p>
+            Колногоров Семен Алексеевич РИ-210913
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+            crossorigin="anonymous"></script>
+</body>
+</html>
